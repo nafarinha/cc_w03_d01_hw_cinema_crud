@@ -99,5 +99,7 @@ SELECT * FROM movies;
 --1
 SELECT * FROM people;
 --DELETE FROM people WHERE id = 1 OR id = 2;
-DELETE FROM people WHERE id IN (1, 2);
+--DELETE FROM people WHERE id IN (1, 2);
+DELETE FROM people WHERE id BETWEEN 1 AND 2;
+
 SELECT * FROM people;

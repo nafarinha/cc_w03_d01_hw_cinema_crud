@@ -295,6 +295,9 @@ DELETE FROM people WHERE id = 1 OR id = 2;
 /*Option 2*/
 DELETE FROM people WHERE id IN (1, 2);
 
+/*Option 3*/
+DELETE FROM people WHERE id BETWEEN 1 AND 2;
+
 id |         name         
 ----+----------------------
  3 | Nuno Farinha
